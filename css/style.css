@@ -6,7 +6,7 @@
   font-family: 'Alexandria', sans-serif;
 }
 
-.banner {
+.home .banner {
   width: 100%;
   height: 100vh;
   background-image: url(../img/bg.png);
@@ -14,7 +14,7 @@
   background-position: center;
 }
 
-.navbar {
+.home .navbar {
   width: 85%;
   margin: auto;
   padding: 20px;
@@ -23,30 +23,30 @@
   justify-content: space-between;
 }
 
-.logo {
+.home .logo {
   width: 120px;
   cursor: pointer;
 }
 
-.menu-icon {
+.home .menu-icon {
   width: 25px;
   cursor: pointer;
   display: none;
 }
 
-.navbar ul li {
+.home .navbar ul li {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
   position: relative;
 }
 
-.navbar ul li a {
+.home .navbar ul li a {
   text-decoration: none;
   color: #3a3a3a;
 }
 
-.navbar ul li::after {
+.home .navbar ul li::after {
   content: '';
   height: 3px;
   width: 0%;
@@ -57,11 +57,11 @@
   transition: 0.3s;
 }
 
-.navbar ul li:hover::after {
+.home .navbar ul li:hover::after {
   width: 100%;
 }
 
-.content {
+.home .content {
   display: flex;
   position: absolute;
   top: 40%;
@@ -70,14 +70,14 @@
   color: #3a3a3a;
 }
 
-.col-1 {
+.home .col-1 {
   flex-basis: 100%;
   position: relative;
   padding: 20px;
   margin-left: 80px;
 }
 
-.col-1 h1 {
+.home .col-1 h1 {
   font-size: 60px;
   line-height: 95%;
   margin-top: 80px;
@@ -87,7 +87,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-.col-1 p {
+.home .col-1 p {
   margin: 10px auto;
   line-height: 25px;
   font-family: 'Alexandria', sans-serif;
@@ -95,7 +95,7 @@
   letter-spacing: -0.3px;
 }
 
-button {
+.home button {
   width: 135px;
   padding: 10px 0;
   text-align: center;
@@ -111,7 +111,7 @@ button {
   transition: 0.3s;
 }
 
-span {
+.home span {
   background: #32cfff;
   height: 100%;
   width: 0;
@@ -123,26 +123,26 @@ span {
   transition: 0.3s;
 }
 
-button a {
+.home button a {
   text-decoration: none;
   color: #eee;
   transition: 0.3s;
 }
 
-button:hover span {
+.home button:hover span {
   width: 100%;
 }
 
-button:hover {
+.home button:hover {
   border: 2px solid transparent;
   transition: 0.5s;
 }
 
-button a:hover {
+.home button a:hover {
   color: #3a3a3a;
 }
 
-#popup {
+.home #popup {
   position: fixed;
   top: 48%;
   left: 50%;
@@ -158,7 +158,7 @@ button a:hover {
   transition: 0.3s;
 }
 
-.popup-close img {
+.home .popup-close img {
   width: 25px;
   padding: 10px;
   background: #eee;
@@ -168,18 +168,18 @@ button a:hover {
   right: -15px;
 }
 
-#popup h1 {
+.home #popup h1 {
   text-align: center;
   font-size: 25px;
   color: #3a3a3a;
 }
 
-#popup.active {
+.home #popup.active {
   opacity: 1;
   visibility: visible;
 }
 
-#popupH {
+.home #popupH {
   position: fixed;
   top: 48%;
   left: 50%;
@@ -195,7 +195,7 @@ button a:hover {
   transition: 0.3s;
 }
 
-.popup-close2 img {
+.home .popup-close2 img {
   width: 25px;
   padding: 10px;
   background: #eee;
@@ -205,13 +205,13 @@ button a:hover {
   right: -15px;
 }
 
-#popupH h1 {
+.home #popupH h1 {
   text-align: center;
   font-size: 25px;
   color: #3a3a3a;
 }
 
-#popupH.active {
+.home #popupH.active {
   opacity: 1;
   visibility: visible;
 }
@@ -219,17 +219,17 @@ button a:hover {
 /*----------------- RESPONSIVE ---------------------*/
 
 @media only screen and (min-width:710px) {
-  .col-1 h1 {
+  .home .col-1 h1 {
     width: 80%;
   }
 }
 
 @media only screen and (max-width:700px) {
-  .banner {
+  .home .banner {
     background-position: left;
   }
 
-  .navbar ul {
+  .home .navbar ul {
     width: 100%;
     background: rgba(0, 0, 0, 0.185);
     backdrop-filter: blur(6px);
@@ -239,87 +239,89 @@ button a:hover {
     z-index: 2;
   }
 
-  .navbar ul li {
+  .home .navbar ul li {
     text-align: right;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  .navbar ul li a {
+  .home .navbar ul li a {
     color: #fff;
   }
   
-  .menu-icon {
+  .home .menu-icon {
     display: block;
     transition: 0.3s;
   }
 
-  .menu-icon:active {
+  .home .menu-icon:active {
     transform: rotate(180deg);
   }
 
-  #menuList {
+  .home #menuList {
     overflow: hidden;
     transition: 0.3s;
   }
 
-  .content {
+  .home .content {
     flex-direction: column-reverse;
     margin: -20px 0;
     margin-left: -60px;
   }
   
-  .col-1 {
+  .home .col-1 {
     flex-basis: 100%;
     margin-bottom: 50px;
   }
 
-  .col-1 h1 {
+  .home .col-1 h1 {
     width: 100%;
     font-size: 35px;
   }
 
-  .col-1 p {
+  .home .col-1 p {
     font-size: 11px;
   }
 
-  button {
+  .home button {
     width: 100px;
     padding: 7px;
     font-size: 11px;
     margin: 15px 0;
   }
 
-  #popup {
+  .home #popup {
     width: 80px;
     top: 45%;
     left: 53%;
     padding: 40px 50px;
   }
 
-  #popup h1 {
+  .home #popup h1 {
     font-size: 20px;
   }
 
-  #popupH {
+  .home #popupH {
     width: 130px;
     top: 45%;
     left: 53%;
     padding: 40px 50px;
   }
 
-  #popupH h1 {
+  .home #popupH h1 {
     font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 300px) {
-  .content {
+  .home .content {
     margin-left: -70px;
   }
   
-  .col-1 h1 {
+  .home .col-1 h1 {
     font-size: 30px;
   }
 }
+
+/*----------------- ABOUT CSS -----------------*/
