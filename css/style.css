@@ -348,6 +348,7 @@
   width: 50%;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .about .content .icon {
@@ -370,4 +371,19 @@
 
 .about .content p span {
   color: #5599ff;
+}
+
+.about .content #icon-song {
+  width: 50px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.about .content a {
+  text-decoration: none;
+  color: white;
+}
+
+.about .content a:hover {
+  color: #3a3a3a;
 }
