@@ -325,3 +325,32 @@
 }
 
 /*----------------- ABOUT CSS -----------------*/
+
+.about {
+  background-image: url('img/bg2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about .banner {
+  display: flex;
+  justify-content: center;
+}
+
+.about .content {
+  backdrop-filter: blur(4px);
+  background-color: #0000001f;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about .content .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.about .content .icon img {
+  width: 100px;
+  border-radius: 50px;
+}
