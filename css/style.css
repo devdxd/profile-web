@@ -341,8 +341,7 @@
 }
 
 .about .content {
-  position: absolute;
-  top: 30%;
+  margin-top: 250px;
   backdrop-filter: blur(4px);
   background-color: #0000001f;
   width: 50%;
@@ -376,7 +375,7 @@
 
 .about .content #icon-song {
   width: 50px;
-  margin: 15px;
+  margin: 15px 0 0;
   cursor: pointer;
 }
 
@@ -387,4 +386,45 @@
 
 .about .content a:hover {
   color: #3a3a3a;
+}
+
+.about .btn-back-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.about .btn-back-group .btn-back {
+  position: relative;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  padding: 10px 20px;
+  border: 1px solid #3a3a3a;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.about .btn-back-group .btn-back::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000001f;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.3s ease;
+  z-index: -1;
+}
+
+.about .btn-back-group .btn-back:hover::before {
+  transform: scaleX(1);
+}
+
+.about .btn-back:hover {
+  color: white;
+  border: 1px solid white;
 }
