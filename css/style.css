@@ -337,11 +337,13 @@
 
 .about .banner {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .about .content {
-  margin-top: 250px;
   backdrop-filter: blur(4px);
   background-color: #0000001f;
   width: 50%;
@@ -427,4 +429,25 @@
 .about .btn-back:hover {
   color: white;
   border: 1px solid white;
+}
+
+/* --------------- ABOUT RESPONSIVE --------------- */
+
+@media only screen and (max-width:620px) {
+  .about .content {
+  }
+
+  .about .content .icon img {
+    width: 80px;
+    top: -40px;
+  }
+
+  .about .content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width:440px) {
+  .about .content {
+  }
 }
