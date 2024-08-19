@@ -454,3 +454,54 @@
   .about .content {
   }
 } */
+
+
+/* ------------ BLOG CSS ------------ */
+
+.blog {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #3a3a3a;
+}
+
+.blog .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  height: 100vh;
+  color: white;
+}
+
+.blog .content .left-flex {
+  width: 200px;
+}
+
+.blog .content .left-flex button {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-color: #0000001f;
+  padding: 40px;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.blog .content .right-flex {
+  width: 200px;
+}
+
+.blog .content .right-flex  button{
+  display: flex;
+  align-items: center;
+  height: 70vh;
+  background-color: #0000001f;
+  padding: 40px;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
