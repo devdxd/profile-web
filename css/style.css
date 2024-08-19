@@ -469,39 +469,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 30px;
   height: 100vh;
   color: white;
 }
 
-.blog .content .left-flex {
-  width: 200px;
-}
-
-.blog .content .left-flex button {
-  display: flex;
-  align-items: center;
-  height: 70vh;
-  background-color: #0000001f;
-  padding: 40px;
-  font-size: 2rem;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
+.blog .content .left-flex,
 .blog .content .right-flex {
-  width: 200px;
-}
-
-.blog .content .right-flex  button{
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
   height: 70vh;
   background-color: #0000001f;
-  padding: 40px;
+  padding: 0 40px;
   font-size: 2rem;
   color: white;
-  border: none;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.blog .content .left-flex:hover,
+.blog .content .right-flex:hover {
+  width: 400px;
+  background-color: #1d1d1d1f;
+}
+
+.blog .content .left-flex span,
+.blog .content .right-flex span {
+  width: 200px;
 }
