@@ -166,6 +166,7 @@
   position: absolute;
   top: -15px;
   right: -15px;
+  cursor: pointer;
 }
 
 .home #popup h1 {
@@ -203,6 +204,7 @@
   position: absolute;
   top: -15px;
   right: -15px;
+  cursor: pointer;
 }
 
 .home #popupH h1 {
