@@ -467,8 +467,10 @@
 
 .blog .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-content: center;
   gap: 30px;
   height: 100vh;
   color: white;
@@ -483,6 +485,7 @@
   width: 200px;
   height: 70vh;
   background-color: #0000001f;
+  border-radius: 10px;
   padding: 0 40px;
   font-size: 2rem;
   color: white;
@@ -499,4 +502,42 @@
 .blog .content .left-flex span,
 .blog .content .right-flex span {
   width: 200px;
+}
+
+.blog .content .btn-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+}
+
+.blog .content .btn-wrapper .btn-back {
+  height: 40px;
+  width: 40px;
+  background-color: #0000001f;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.blog .content .btn-wrapper .btn-back:hover {
+  width: 165px;
+  background-color: #00000038;
+}
+
+.blog .content .btn-wrapper .btn-back button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.blog .content .btn-wrapper .btn-back span {
+  font-size: 15px;
+  margin-left: 5px;
 }
