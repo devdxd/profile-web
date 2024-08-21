@@ -478,6 +478,7 @@
 
 .blog .content .flex-card {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -513,6 +514,13 @@
   transform: scale(1.1);
 }
 
+.blog .content .flex-card .blend {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
 .blog .content .flex-card .img-2 {
   height: 100%;
   margin-left: 300px;
@@ -525,12 +533,13 @@
 }
 
 .blog .content .flex-card .img-3 {
-  transform: scale(0.9);
+  height: 100%;
+  transform: scale(1.2);
   transition: 0.3s ease;
 }
 
 .blog .content .flex-card .img-3:hover {
-  transform: scale(1);
+  transform: scale(1.3);
 }
 
 .blog .content .btn-wrapper {
