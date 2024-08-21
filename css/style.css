@@ -489,6 +489,7 @@
   font-size: 2rem;
   color: white;
   cursor: pointer;
+  overflow: hidden;
   transition: 0.3s ease;
 }
 
@@ -498,7 +499,38 @@
 }
 
 .blog .content .flex-card span {
+  position: absolute;
   width: 200px;
+}
+
+.blog .content .flex-card .img-1 {
+  height: 100%;
+  transform: scale(1);
+  transition: 0.3s ease;
+}
+
+.blog .content .flex-card .img-1:hover {
+  transform: scale(1.1);
+}
+
+.blog .content .flex-card .img-2 {
+  height: 100%;
+  margin-left: 300px;
+  transform: scale(1);
+  transition: 0.3s ease;
+}
+
+.blog .content .flex-card .img-2:hover {
+  transform: scale(1.1);
+}
+
+.blog .content .flex-card .img-3 {
+  transform: scale(0.9);
+  transition: 0.3s ease;
+}
+
+.blog .content .flex-card .img-3:hover {
+  transform: scale(1);
 }
 
 .blog .content .btn-wrapper {
