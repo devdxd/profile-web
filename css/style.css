@@ -476,8 +476,7 @@
   color: white;
 }
 
-.blog .content .left-flex,
-.blog .content .right-flex {
+.blog .content .flex-card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -493,14 +492,12 @@
   transition: 0.3s ease;
 }
 
-.blog .content .left-flex:hover,
-.blog .content .right-flex:hover {
+.blog .content .flex-card:hover {
   width: 400px;
   background-color: #1d1d1d1f;
 }
 
-.blog .content .left-flex span,
-.blog .content .right-flex span {
+.blog .content .flex-card span {
   width: 200px;
 }
 
