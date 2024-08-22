@@ -497,6 +497,7 @@
 .blog .content .flex-card:hover {
   width: 400px;
   background-color: #1d1d1d1f;
+  box-shadow: 0 0 12px 0 white;
   /* transform: translateY(-30px); */
 }
 
@@ -624,6 +625,7 @@
 .blog .content .btn-wrapper .btn-back:hover {
   width: 165px;
   background-color: #00000038;
+  box-shadow: 0 0 12px 0 white;
 }
 
 .blog .content .btn-wrapper .btn-back button {
