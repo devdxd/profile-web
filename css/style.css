@@ -524,13 +524,37 @@
 .blog .content .flex-card:hover {
   width: 400px;
   background-color: #1d1d1d1f;
-  box-shadow: 0 0 12px 0 white;
   /* transform: translateY(-30px); */
+}
+
+.blog .content .flex-card.card-1 {
+  box-shadow: none;
+}
+
+.blog .content .flex-card.card-1:hover {
+  box-shadow: 0 0 20px 0 rgb(146, 30, 255);
+}
+
+.blog .content .flex-card.card-2 {
+  box-shadow: none;
+}
+
+.blog .content .flex-card.card-2:hover {
+  box-shadow: 0 0 20px 0 rgb(255, 56, 30);
+}
+
+.blog .content .flex-card.card-3 {
+  box-shadow: none;
+}
+
+.blog .content .flex-card.card-3:hover {
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
 }
 
 .blog .content .flex-card span {
   position: absolute;
   width: 200px;
+  pointer-events: none;
 }
 
 .blog .content .flex-card .blend-1 {
