@@ -463,7 +463,7 @@
   padding: 0;
   font-family: sans-serif;
   background-color: #3a3a3a;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .blog .content {
@@ -705,6 +705,26 @@
 .blog .content .btn-wrapper .btn-back span {
   font-size: 15px;
   margin-left: 5px;
+}
+
+/* --------------- BLOG RESPONSIVE ------------- */
+
+@media only screen and (max-width:480px) {
+  .blog {
+    overflow: scroll;
+  }
+
+  .blog .content .flex-card.card-1 {
+    margin-top: 290%;
+  }
+
+  .blog .content .flex-card:hover {
+    width: 230px; /* MAKE IT TO HORIZONTAL FOR MOBILE VIEW */
+  }
+
+  .blog .content .btn-wrapper .btn-back{
+    margin-bottom: 30px;
+  }
 }
 
 /* ---------------  BLOG - GFX ----------------- */
