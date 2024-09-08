@@ -729,6 +729,10 @@
 
 /* ---------------  BLOG - GFX ----------------- */
 
+.blog-gfx {
+  background: #3a3a3a;
+}
+
 .blog-gfx main {
   display: flex;
   justify-content: center;
@@ -804,7 +808,7 @@
   position: relative;
   width: 50px;
   height: 50px;
-  background: #3a3a3a;
+  background: white;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -817,8 +821,8 @@
   position: absolute;
   width: 15px;
   height: 15px;
-  border-top: 4px solid white;
-  border-left: 4px solid white;
+  border-top: 4px solid #3a3a3a;
+  border-left: 4px solid #3a3a3a;
   transform: rotate(315deg) translate(2px, 2px);
 }
 
@@ -828,6 +832,10 @@
 
 .blog-gfx .buttons span:active {
   opacity: 0.5;
+}
+
+.blog-gfx .btn-wrapper {
+  display: flex;
 }
 
 .blog-gfx .slider .slides .content {
@@ -860,6 +868,7 @@
 /* ----------------- BLOG-GFX RESPONSIVE ------------------ */
 
 @media (max-width: 900px){
+
   .blog-gfx .slider {
     position: absolute;
     inset: 40px 40px 200px 40px;
@@ -891,4 +900,8 @@
   .blog-gfx .slider .slides:nth-child(6) {
     left: 360px;
   }
+}
+
+@media only screen and (max-width:480px) {
+  
 }
