@@ -897,6 +897,10 @@
     text-align: left;
   }
 
+  .blog-gfx .slider .slides .content p {
+    font-size: 0.8rem;
+  }
+
   .blog-gfx .slider .slides:nth-child(1),
   .blog-gfx .slider .slides:nth-child(2) {
     top: initial;
@@ -922,6 +926,13 @@
     width: 85px;
     height: 85px;
     bottom: -155px;
+  }
+
+  .blog-gfx .slider .slides .content {
+    padding: 30px;
+    text-align: justify;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.554));
+    border-radius: 20px;
   }
 
   .blog-gfx .slider .slides:nth-child(4) {
