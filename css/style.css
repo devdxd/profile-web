@@ -905,6 +905,20 @@
   }
 }
 
-@media only screen and (max-width:480px) {
-  
+@media only screen and (max-width:390px) {
+  .blog-gfx .slider .slides {
+    width: 85px;
+    height: 85px;
+    bottom: -155px;
+  }
+
+  .blog-gfx .slider .slides:nth-child(4) {
+    left: 100px;
+  }
+  .blog-gfx .slider .slides:nth-child(5) {
+    left: 200px;
+  }
+  .blog-gfx .slider .slides:nth-child(6) {
+    left: 30px;
+  }
 }
