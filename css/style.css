@@ -745,7 +745,7 @@
 
 .blog-gfx .slider {
   position: absolute;
-  inset: 80px 200px 80px 80px;
+  inset: 30px 200px 80px 80px;
   background-color: #0000001f;
   border-radius: 20px;
 }
@@ -799,15 +799,15 @@
 
 .blog-gfx .buttons {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   position: absolute;
-  bottom: 15px;
+  bottom: 20px;
 }
 
 .blog-gfx .buttons span {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: white;
   cursor: pointer;
   display: flex;
@@ -826,16 +826,19 @@
   transform: rotate(315deg) translate(2px, 2px);
 }
 
-.blog-gfx .buttons span:nth-child(2)::before {
+.blog-gfx .buttons .next::before {
   transform: rotate(135deg) translate(2px, 2px);
 }
 
-.blog-gfx .buttons span:active {
+.blog-gfx .buttons span:active,
+.blog-gfx .buttons button:active {
   opacity: 0.5;
 }
 
-.blog-gfx .btn-wrapper {
-  display: flex;
+.blog-gfx .buttons .btn-back {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
 }
 
 .blog-gfx .slider .slides .content {
