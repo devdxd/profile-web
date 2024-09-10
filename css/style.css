@@ -737,6 +737,60 @@
   }
 }
 
+@media only screen and (min-width:500px) {
+  .blog .content {
+    gap: 20px;
+  }
+
+  .blog .content .flex-card {
+   width: 60px;
+  }
+ 
+  .blog .content .flex-card:hover {
+   width: 90px;
+  }
+
+  .blog .content .flex-card span {
+    font-size: 1.2rem;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width:700px) {
+  .blog .content {
+    gap: 30px;
+  }
+
+  .blog .content .flex-card {
+    width: 100px;
+  }
+  
+  .blog .content .flex-card:hover {
+    width: 200px;
+  }
+
+  .blog .content .flex-card span {
+    font-size: 1.7rem;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width:900px) {
+ .blog .content .flex-card {
+    width: 150px;
+ }
+
+ .blog .content .flex-card:hover {
+    width: 250px;
+ }
+
+ .blog .content .flex-card span {
+    font-size: 2rem;
+    width: 200px;
+  }
+}
+
+
 /* ---------------  BLOG - GFX ----------------- */
 
 .blog-gfx {
