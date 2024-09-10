@@ -724,6 +724,7 @@
 
   .blog .content .btn-wrapper .btn-back{
     margin-bottom: 30px;
+    width: 165px;
   }
 
   .blog .content .flex-card {
@@ -753,6 +754,10 @@
   .blog .content .flex-card span {
     font-size: 1.2rem;
     width: 100px;
+  }
+
+  .blog .content .btn-wrapper .btn-back{
+    width: 165px;
   }
 }
 
@@ -787,6 +792,12 @@
  .blog .content .flex-card span {
     font-size: 2rem;
     width: 200px;
+  }
+}
+
+@media only screen and (min-width:1080px) {
+  .blog .content .btn-wrapper .btn-back{
+    width: 40px;
   }
 }
 
