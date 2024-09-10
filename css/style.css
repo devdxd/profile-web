@@ -715,7 +715,7 @@
   }
 
   .blog .content .flex-card.card-1 {
-    margin-top: 290%;
+    margin-top: 60%;
   }
 
   .blog .content .flex-card:hover {
@@ -724,6 +724,16 @@
 
   .blog .content .btn-wrapper .btn-back{
     margin-bottom: 30px;
+  }
+
+  .blog .content .flex-card {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width:390px) {
+  .blog .content .flex-card.card-1 {
+    margin-top: 110%;
   }
 }
 
