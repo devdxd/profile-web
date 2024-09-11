@@ -948,7 +948,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
   height: 100%;
   width: 100%;
   z-index: 100;
@@ -971,9 +972,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 5px solid white;
-  border-radius: 5px;
-  width: 350px;
+  width: 45%;
   object-fit: cover;
 }
 
