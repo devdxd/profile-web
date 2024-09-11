@@ -16,7 +16,7 @@ document.querySelectorAll('.slides').forEach(image =>{
     image.onclick = () => {
         let imgUrl = image.style.getPropertyValue('--img');
 
-        imgUrl = imgUrl.slice(5, -2);
+        imgUrl = imgUrl.slice(8, -2);
 
         document.querySelector('.popup-img').style.display = 'block';
         document.querySelector('.popup-img img').src = imgUrl;
